@@ -13,16 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Sam Lindsay
+subtitle: "New website. No insight."
+title_separator: "|"
+email: sam.n.lindsay@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Website and blog of civil service data scientist and former astrophysicist Sam Lindsay.
+twitter_username: samnlindsay
+github_username: samnlindsay
+minimal_mistakes_skin: dark
 search: true
+locale: "en-GB"
+repository: "samnlindsay/samnlindsay.github.io"
+
+# Masthead
+logo: "https://avatars0.githubusercontent.com/u/7570107?s=460&u=ad17576489d6f64ce91a4dcd27cd55aca4d66dba&v=4"
+masthead_title: "Sam Lindsaygit "
 
 # Build settings
 markdown: kramdown
@@ -58,34 +64,40 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Sam Lindsay"
+  avatar : "https://avatars0.githubusercontent.com/u/7570107?s=460&u=ad17576489d6f64ce91a4dcd27cd55aca4d66dba&v=4"
+  bio    : "Data Scientist at the Ministry of Justice"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/samnlindsay"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/samnlindsay"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/samnlindsay"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/samnlindsay"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/samnlindsay"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/samnlindsay"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/samnlindsay"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/samnlindsay"
 
 defaults:
   # _posts
@@ -106,6 +118,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-dark"
+    issue_term: "pathname"
 
 category_archive:
   type: liquid
