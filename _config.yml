@@ -27,7 +27,7 @@ locale: "en-GB"
 repository: "samnlindsay/samnlindsay.github.io"
 
 # Masthead
-logo: "https://avatars0.githubusercontent.com/u/7570107?s=460&u=ad17576489d6f64ce91a4dcd27cd55aca4d66dba&v=4"
+#logo: "https://avatars0.githubusercontent.com/u/7570107?s=460&u=ad17576489d6f64ce91a4dcd27cd55aca4d66dba&v=4"
 masthead_title: "Sam Lindsay"
 
 # Build settings
