@@ -61,7 +61,7 @@ To achieve this task and assist other organisations in similar work, we have dev
 ## Employment History
 
 <figure class="align-left" style="width: 500px">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/itvnews.JPG" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/itvnews.jpg" alt="">
   <figcaption><em>Discussing the latest images of Pluto from the New Horizons mission on ITV News (July 2015)</em></figcaption>
 </figure>
 
