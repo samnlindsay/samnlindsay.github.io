@@ -66,11 +66,8 @@ plugins:
 author:
   name   : "Sam Lindsay"
   avatar : "https://avatars0.githubusercontent.com/u/7570107?s=460&u=ad17576489d6f64ce91a4dcd27cd55aca4d66dba&v=4"
-  bio    : "Data Scientist at the Ministry of Justice"
+  bio    : "I am a Data Scientist at the Ministry of Justice, and devote a lot of my free time to playing rugby. This blog will mostly be about the former, but occasionally the two worlds collide."
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/samnlindsay"
@@ -118,6 +115,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      entries_layout: grid
 
 comments:
   provider: "utterances"
