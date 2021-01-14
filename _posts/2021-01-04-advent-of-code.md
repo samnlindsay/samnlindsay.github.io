@@ -1,8 +1,9 @@
 ---
-title: Advent of Code 2020 (Part 1)
+title: Advent of Code 2020 (Week 1)
 classes: wide
 date: 2021-01-04 20:32
 summary: A much-needed combo of learning and fun leading up to Christmas 2020
+
 gallery:
   - image_path: /assets/images/AOC.png
     alt: "The Advent of Code website"
@@ -168,3 +169,55 @@ count = [len(set("".join(grp))) for grp in answers]
 # Part 2 - Count characters common to ALL members of group
 len(set.intersection(*[set(a) for a in grp])) for grp in answers 
 ```
+
+
+## [Day 7 - Handy Haversacks](https://adventofcode.com/2020/day/7){:target="_blank"}
+[_My solution_](https://github.com/samnlindsay/advent_of_code/blob/main/Day07-HandyHaversacks.ipynb){:target="_blank"}
+
+In this bizarre world, we are told there a rules about everyone's luggage and what it contains. We are provided the **extensive** list of rules in the following format:
+```
+light red bags contain 1 bright white bag, 2 muted yellow bags.
+dark orange bags contain 3 bright white bags, 4 muted yellow bags.
+```
+
+Of all the different colours of bag explicitly mentioned, we must find how many can eventually contain at least one _shiny gold_ bag. After parsing the input rules as a dict of dicts `d` (e.g. `{'light red': {'bright white': 1, 'muted yellow': 2}}`), my not-at-all-elegant solution looked like:
+```python
+# Set of bags that directly contain a shiny gold bag
+road_to_gold = set(col for col in d if "shiny gold" in d[col].keys())
+
+old_len = 0
+new_len = len(road_to_gold)
+
+# Work up the chain until no new bags found that contain gold
+while old_len != new_len:
+    old_len = len(road_to_gold)
+    for col in d:
+        l = list(road_to_gold)
+        # Add bags not in the list, but containing bags in the list
+        for g_col in l:
+            if g_col in d[col].keys():
+                road_to_gold.add(col)
+    new_len = len(road_to_gold)
+
+len(road_to_gold)
+```
+
+Part 2 starts from the _shiny gold_ bag and asks how many bags it must contain after iteratively unpacking all of its contents. Enter my first taste of writing recursing functions in Python. After making a hash of it first time around, I gave up and wrote an ugly solution involving functions to multiply `dict` values by a constant, or add them together, and then a clunky `while` loop to keep adding contents of bags until there no more to add.
+
+But once I got the answer, I had to go back and write the concise solution I knew was possible with a recursive function:
+```python
+def cost(color):
+    total = 0
+    for k,v in d[color].items():
+        # Add contents...
+        total += v
+        # ..and their contents
+        total += v * cost(k)
+    return total
+
+cost("shiny gold")
+```
+
+With hindsight, it's hard to believe I struggled to come up with it first time around... 🤦
+
+**Phew! So that was Week 1, and at this stage I was surprised I had kept up with it, and pleased how much I had learned already. But surely the problems are only going to get more challenging...**
