@@ -90,7 +90,8 @@ Other work has included private tuition of 10-19 year-olds, tutoring University 
 I currently live in Charlton with my wife Issi, a Metropolitan Police Officer. While our professional lives revolve around crime, we both enjoy rugby and lifting weights at the gym. Aside from that, we are pretty much opposites - a quiet, scientist from the city and a convivial, country girl with a Music & Drama degree. 
 
 I grew up in Wembley (the "[home of English football](https://en.wikipedia.org/wiki/Wembley)") in North West London -- ironic given my favourite sport has been rugby since I was about 11 years old. I was always a bit of a nerd (no surprises there), and while I always had a healthy involvement in sports (football, rugby, judo, tennis) I was never particularly good or passionate about them, as I am now. 
-
+<br>
+<br>
 ### Music 
 
 <figure class="align-right" style="width: 250px">
