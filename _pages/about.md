@@ -83,7 +83,7 @@ Other work has included private tuition of 10-19 year-olds, tutoring University 
 
 ## Personal
 
-<figure class="align-left" style="width: 250px">
+<figure class="align-left" style="width: 200px">
   <img src="https://avatars0.githubusercontent.com/u/7570107?s=460&u=ad17576489d6f64ce91a4dcd27cd55aca4d66dba&v=4" alt="">
 </figure>
 
@@ -101,7 +101,7 @@ My teens were dominated by music, playing guitar and bass before I settled on th
 
 ### Rowing
 
-<figure class="align-right" style="width: 500px">
+<figure class="align-left" style="width: 400px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/henley4.jpg" alt="">
   <figcaption>My happy place on water: the stroke seat of a coxless four, representing <a href="https://www.imperialboatclub.co.uk/" target="_blank">Sport Imperial</a> at Henley Royal Regatta 2010 in the Wyfold Challenge Cup</figcaption>
 </figure>
@@ -114,15 +114,14 @@ After living for a year in the student accommodation above the university boatho
 
 ### Travel
 _(Almost entirely work-related)_
-
-Having gone to secondary school in nearby Hertfordshire, then Imperial College London as an undergraduate before the University of Hertfordshire as a postgraduate student, I am unashamedly attached to London. Before university I had only been abroad for a couple of school trips to France, before rowing training camps and holidays with friends took me to Spain, the Netherlands, Poland, Germany and Malta (which felt relatively exotic, despite still being in the EU and largely English speaking). I was able to make up for lost time during my PhD, where one of the perks of astrophysics in particular is the opporunity to travel to exotic locations:
-
 <figure class="align-right" style="width:400px">
   <img src="https://cdn.eso.org/images/screen/potw1938a.jpg" alt="">
   <figcaption>A view of the Milky Way you only get in the middle of nowhere in the Southern Hemisphere. Sights like this in Chile are what let me to take up photography. <a href="https://www.eso.org/public/images/potw1938a/" target="_blank">Credit: ESO/P.Horálek</a></figcaption>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/capetown_sunset.jpg" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/capetown_sunset.JPG" alt="">
   <figcaption>Our last night on honeymoon in Cape Town, taking in the sunset over the Lion's Head and Table Mountain.</figcaption>
 </figure>
+
+Having gone to secondary school in nearby Hertfordshire, then Imperial College London as an undergraduate before the University of Hertfordshire as a postgraduate student, I am unashamedly attached to London. Before university I had only been abroad for a couple of school trips to France, before rowing training camps and holidays with friends took me to Spain, the Netherlands, Poland, Germany and Malta (which felt relatively exotic, despite still being in the EU and largely English speaking). I was able to make up for lost time during my PhD, where one of the perks of astrophysics in particular is the opporunity to travel to exotic locations:
 
 - **La Palma, Canary Islands, Spain** -- My first observing trip, working 8 nights on the [Isaac Newton Group](http://www.ing.iac.es/) of telescopes at 2,334m above sea level, and my first taste of the beauty of a dark sky and no light pollution.
 - **Cape Town, South Africa** -- First an October networking trip with my supervisor who was an adjunct professor at University of Western Cape, where we stayed in an apartment at the foot of Table Mountain overlooking the city, then a two-week cosmology Summer School in nearby Stellenbosch. The "_Mother City_" remains my favourite place in the world, and I was lucky to have visited twice at someone else's expense.
@@ -137,7 +136,7 @@ Unsurprisingly, my long-haul travel has declined since joining the regular worki
 
 After learning rugby at school but never demonstrating any real competence, it was always my favourite sport as a spectator. I watched every England game and was always fond of Saracens as the club representing NW London in the Premiership. At university I discovered rowing was the sport I was made for, despite (or perhaps because of) the gruelling, repetitive nature of training.  Ironically, I kicked the rowing habit for good when I joined the Physics Department of the [University of Oxford](https://www2.physics.ox.ac.uk/) - an institution with a famous rowing tradition. And after moving back to London to live with my girlfriend in Chiswick, the insane training time involved in rowing made it an unviable option, despite being so close to my old club. 
 
-<figure class="align-left" style="width:350px">
+<figure class="align-left" style="width:300px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/rugby_headshot.png" alt="">
 </figure>
 
