@@ -13,20 +13,23 @@ gallery:
 
 After years of telling myself "_I really should start using Python_" but never quite committing to the change, I have been working almost exclusively in Python for the last year or so. Nevertheless, I have subsisted mainly on cannibalising snippets of code from elsewhere or else just making a mess of things as I gradually pick up the basics. So when my colleague [Mike Ratford](http://github.com/mratford){:target="_blank"} alerted the rest of the Data Science Hub (DaSH) to the existence [Advent of Code](https://adventofcode.com/2020/about){:target="_blank"}, it seemed like a perfect opportunity to tackle some simple problems from scratch. 
 
-{% include gallery caption="The completed Advent of Code map (left), showing the epic '_journey_' our character is making over the course of 25 days and 25 puzzles, following the plot introduced on Day 1 (right)" %}
+{% include gallery id="gallery" caption="The completed Advent of Code map (left), showing the epic '_journey_' our character is making over the course of 25 days and 25 puzzles, following the plot introduced on Day 1 (right)" %}
 
 AoC is an annual series of programming puzzles, released daily from the 1st to the 25th December. The puzzles are each split into two parts, with the first setting up a scenario before the second part often ramps up the difficulty. Registered users are given their own bespoke input data to prevent copying their neighbour's homework (but that's not to say you can't run their code on your data) and upon submitting a correct answer you are rewarded with a gold star :star:. You can use any language you like, as long as you input the correct answer into the webpage at the end of it. 
 
 For those for whom the challenge of simply completing all 25 puzzles isn't enough, a further incentive is given to the first 100 competitors to earn each star (often within minutes of the puzzles being published at midnight EST/UTC-5). 1st place receives 100 points, 2nd place 99, and so on. After this battle is concluded, a megathread is opened on the Advent of Code [subreddit](https://www.reddit.com/r/adventofcode/){:target="_blank"} where solutions can be posted and discussed.
 
-{% include figure image_path="/assets/images/AOCleaderboard.png" alt="" caption="The MoJ Data Science Hub's private leaderboard on Advent of Code" %}
+{% include figure image_path="/assets/images/AOCleaderboard.png" caption="The MoJ Data Science Hub's private leaderboard on Advent of Code" %}{: .align-right style="width:400px"}
 
 We mere mortals in the DaSH team set up a Slack channel to discuss our solutions, and a private leaderboard on the AoC website. Out of the 12 of us who signed up, the first to earn each star would receive 12 points, and so on down to 1 point for the last to solve a problem. Maybe without this element of competition, accountability and camaraderie I never would have persevered for the full month, and it was really enjoyable to learn about how my colleagues tackled a particular problem (mostly in Python but some in R). 
 
 Unsurprisingly, as the problems became more taxing, not everyone was willing to commit to completing every puzzle, so it turned into a battle between myself and seasoned AoC-er Mike. Thankfully, I had built up an early lead simply by starting my day with each puzzle and finishing my code off over lunch if necessary, while others were late risers or simply had better things to do with their time!
 
-My next post will go into the details of what new Python features/techniques I learned about in the process of solving these puzzles, not to mention the other methods Mike and others used that I'm sure to look into in future. For now though, here's my retrospective diary of how I tackled my very first Advent of Code epic journey:
+---- 
 
+{% include toc icon="bars" title="Puzzles"%}{: .align-right}
+
+I will do a shorter debrief post going into the details of what new Python features/techniques I learned about in the process of solving these puzzles, not to mention the other methods Mike and others used that I'm sure to look into in future. For now though, here's my retrospective diary of how I tackled my very first Advent of Code epic journey:
 
 ## [Day 1 - Report Repair](https://adventofcode.com/2020/day/1){:target="_blank"}
 [_My solution_](https://github.com/samnlindsay/advent_of_code/blob/main/Day01-ReportRepair.ipynb){:target="_blank"}
@@ -220,4 +223,8 @@ cost("shiny gold")
 
 With hindsight, it's hard to believe I struggled to come up with it first time around... 🤦
 
-**Phew! So that was Week 1, and at this stage I was surprised I had kept up with it, and pleased how much I had learned already. But surely the problems are only going to get more challenging...**
+----
+
+
+
+Phew! So that was Week 1, and at this stage I was surprised I had kept up with it, and pleased how much I had learned already. But surely the problems are only going to get more challenging...
